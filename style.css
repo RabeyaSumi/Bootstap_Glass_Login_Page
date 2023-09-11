@@ -1,0 +1,56 @@
+/********************Make card area transperanr.**************************/
+/*-----------------------------------------------------------------------------------*/
+.card-transperant{
+    border-width: 1px 1px 1px 1px;
+    background:linear-gradient(135deg,  rgba(255, 255, 255, 0.1), rgba(69, 47, 132, 0));
+    backdrop-filter: blur(40px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 233, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+/********************Make Input Field Transperant. **************************/
+/*-----------------------------------------------------------------------------------*/
+input.transparent-input{
+    background-color:rgba(0,0,0,0) !important;
+    border-color:rgb(66, 102, 143);
+    border-top: 2px !important; /*Vanish-border.*/
+    border-left: 2px !important;
+    border-right: 2px !important;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+               
+}
+
+/********************Remove focus outline. **************************/
+/*-----------------------------------------------------------------------------------*/
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/********************Custom Form-Level Class, Color. **************************/
+/*-----------------------------------------------------------------------------------*/
+.form-label{
+    color:rgb(112, 157, 194);
+ }
+
+
+/********************Make Register Button Transperant, rgba Opacity. **************************/
+/*-----------------------------------------------------------------------------------*/
+.bg-transparent{
+    background:linear-gradient(135deg,  rgba(89, 150, 201, 0.1), rgba(26, 16, 54, 0));
+    backdrop-filter: blur(40px);
+
+}
+
+/********************Make Register Hover Button  Transperant, rgba Opacity.  **************************/
+/*-----------------------------------------------------------------------------------*/
+.bg-transparent:hover, .bg-transparent:Active, .bg-transparent:visited{
+    background:linear-gradient(135deg,  rgba(235, 10, 103, 0.1), rgba(11, 5, 27, 0));
+    backdrop-filter: blur(40px);
+
+}
+
